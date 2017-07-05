@@ -1,0 +1,74 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background: url('images/game-header2.jpg') no-repeat center;
+    /*background-size: cover;*/
+    height: 800px;
+}
+
+nav {
+    float: right;
+    height: 40px;
+    margin-right: 30px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    /*padding: 30px;*/
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+nav > ul > li ul {
+    display: none;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e69947;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.fa-sort-desc {
+    margin-left: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 17px;
+}
+
+main {
+    background-color: rgba(230, 168, 71, 0.3);
+}
+
+.main {
+    width: 80%;
+}
+
+.minions img {
+    width: 300px;
+}
+
+.teasers {
+    width: 20%;
+    float: right;
+}
+
+main:after {
+    display: block;
+    content: "";
+    clear: both;
+}
