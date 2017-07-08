@@ -12,9 +12,10 @@ body {
 }
 .wrapper {
     margin: 0 auto;
+    background-color: #2A9CD6;
 }
 header {
-    background: grey;
+  background-image: url("images/blueSky.jpg");
     width: 100%;
     display: flex;
 }
