@@ -1,157 +1,127 @@
 @import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 * {
     margin: 0;
     padding: 0;
-
 }
-
 body {
     font-family: 'Roboto', sans-serif;
-	height: 100%;
-	background-image: url("images/blueSky.jpg");
+    height: 100%;
+    background-image: url("images/blueSky.jpg");
     background-size: cover;
 }
-
 .wrapper {
-	margin: 0 auto;
+    margin: 0 auto;
 }
-
 header {
-	background: grey;
-	width: 100%;
-	display: flex;
-	}
-
-body header div .logo {
-      float: left;
-	  margin-left: 15px;
-
-
+    background: grey;
+    width: 100%;
+    display: flex;
 }
-
+body header div .logo {
+    float: left;
+    margin-left: 15px;
+}
 body header div .headerContact {
     float: right;
     width: 200px;
-	border: 1px solid black;
-	font-size: 10px ;
+    border: 1px solid black;
+    font-size: 10px;
     padding: 10px 20px 10px 20px;
 }
-
-body  main nav {
+body main nav {
     width: 100%;
     margin: 100px 10px 10px 12px;
     padding: 20px;
-	border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
 }
-
-body  main nav ul {
-	list-style-type: none;
+body main nav ul {
+    list-style-type: none;
     padding: 12px;
     margin: 5px;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
-
-body  main nav ul li {
+body main nav ul li {
     display: inline-block;
     margin: 10px;
-	margin-left: 60px;
-	padding:10px;
-	border: 1px solid red;
-	width: 180px;
-	text-align: center;
-	letter-spacing: 1px;
+    margin-left: 60px;
+    padding: 10px;
+    border: 1px solid red;
+    width: 180px;
+    text-align: center;
+    letter-spacing: 1px;
 }
-
-body  main nav ul li a {
+body main nav ul li a {
     cursor: pointer;
-	color: black;
-	text-decoration: none;
-	text-transform: uppercase;
-	margin: 5px;
-
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
 }
-
-body  main nav ul li a #selected {
+body main nav ul li a #selected {
     font-weight: bold;
 }
-
-body  main nav ul li:hover > a {
+body main nav ul li:hover > a {
     text-decoration: none;
 }
-
-body  main nav ul li:hover > a + ul {
+body main nav ul li:hover > a + ul {
     display: block;
     width: 250px;
-	margin: 10px;
-
+    margin: 10px;
 }
-
-body  main nav ul li ul.sub-nav-list {
+body main nav ul li ul.sub-nav-list {
     position: absolute;
     display: none;
     border-radius: 2px;
-	z-index: 1;
-	width: 60px;
+    z-index: 1;
+    width: 60px;
 }
-
-body  main nav ul li ul .sub-nav-list li {
+body main nav ul li ul .sub-nav-list li {
     float: none;
     margin: 0 15px 0 15px;
     padding: 10px 0 10px 0;
     border-bottom: 1px solid black;
 }
-
-body  main nav ul li ul .sub-nav-list li a {
-	color: black;
+body main nav ul li ul .sub-nav-list li a {
+    color: black;
 }
-
-body  main nav ul li ul .sub-nav-list li:last-of-type {
+body main nav ul li ul .sub-nav-list li:last-of-type {
     border-bottom: none;
 }
-
-body  main nav ul li ul .sub-nav-list li > a {
+body main nav ul li ul .sub-nav-list li > a {
     font-size: 1.2em;
 }
-
-
 section {
-	width: auto;
-	margin:10px;
-	padding: 5px;
-	position: relative;
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
 }
- section aside {
+section aside {
     width: 40%;
     float: right;
     padding-left: 5px;
-	border: 1px solid black;
-	box-sizing: border-box;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
-
 section article {
-	width: 60%;
+    width: 60%;
     float: left;
     padding: 5px;
-	border: 1px solid black;
-	box-sizing: border-box;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
-
 section article .block {
-	padding:5px;
-	margin:	20px;
-	text-align: justify;
-
+    padding: 5px;
+    margin: 20px;
+    text-align: justify;
 }
-
-section article .block p{
-	font-size: 18px;
-	color:red;
-	word-wrap: break-word;
-	text-indent: 20px;
+section article .block p {
+    font-size: 18px;
+    color: red;
+    word-wrap: break-word;
+    text-indent: 20px;
 }
-
 /*footer {
 	background: grey;
 	position: absolute;
