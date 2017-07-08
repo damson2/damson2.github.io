@@ -50,7 +50,7 @@ body  main nav ul {
 	list-style-type: none;
     padding: 12px;
     margin: 5px;
-	text-transform: uppercse;
+	text-transform: uppercase;
 }
 
 body  main nav ul li {
