@@ -1,4 +1,4 @@
-# damson2.github.io
+﻿# damson2.github.io
 Team project
 
 Основни елементи на index.html
@@ -29,3 +29,8 @@ section
 footer
 	p / 2017 дрън-дрън/
 	ul li / 3 бутона  препратки Home, About us, E-shop/
+
+
+colours:
+orange - #e36101
+blue - #231f5c

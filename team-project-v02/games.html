@@ -25,19 +25,6 @@
                 <a href="https://www.google.plus.com/"><img alt="googleplus" src="images/googleplus.png" title="Google plus" width="23" height="23" /></a>
                 <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><img src="images/email-blue.png" alt="contact" title="Contact with us" width="23" height="23" /></a>
             </div>
-            <div class="regForm">
-                <form action="#">
-                    <div class="form-field">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <input type="text" name="name" required="required" placeholder="Username" />
-                    </div>
-                    <div class="form-field">
-                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
-                        <input type="password" name="pass" required="required" placeholder="Password">
-                    </div>
-                    <input type="submit" name="submit" />
-                </form>
-            </div>
         </header>
         <!-- HEADER END -->
         <hr>
@@ -51,12 +38,12 @@
                     <a class="active" href="aboutMovie.html"><span>About Movie</span></a>
                     <ul>
                         <li><a href="despicableMe.html">Despicable Me</li>
-						<li><a href="despicableMe2.html">Despicable Me 2</li>
-						<li><a href="despicableMe3.html">Despicable Me 3</li>
-					</ul>
-				</li>
-				<li>
-				<a href="fanzone.html"><span>Fanzone</span></a>
+                        <li><a href="despicableMe2.html">Despicable Me 2</li>
+                        <li><a href="despicableMe3.html">Despicable Me 3</li>
+                    </ul>
+                </li>
+                <li>
+                <a href="fanzone.html"><span>Fanzone</span></a>
                             <ul>
                                 <li><a href="paperCraft.html">Paper Craft</a></li>
                                 <li><a href="drawingGallery.html">Drowing</a></li>
@@ -95,29 +82,52 @@
                         <button><a href="#">Reset</a></button>
                     </div>
                 </div>
-                <div>
-                    <p>Открийте още забавни игри с щурите миньони!</p>
-                    <a href="http://www.despicablemegames.org/">тук</a>
-                    <a href="http://www.games-kids.com/minion-games.html"></a>
-                    <a href="http://minion-games.game37.net/"></a>
+                <div class="links">
+                    <h2>Открийте още забавни игри с щурите миньони!</h2>
+                    <div><img src="images/minion1.png">
+                        <button><a href="http://www.despicablemegames.org">Виж</a></button>
+                    </div>
+                    <div><img src="images/minion3.png">
+                        <button><a href="http://www.games-kids.com/minion-games.html">
+                            Виж
+                        </a></button>
+                    </div>
+                    <div><img src="images/minion4.png">
+                        <button><a href="http://minion-games.game37.net">
+                            Виж
+                        </a></button>
+                    </div>
                 </div>
             </div>
             <aside>
                 <div class="teasers">
-                    <a href="http://www.imdb.com/title/tt2293640/" class="minions">
-                        <div>
-                            <h2>Minions Movie</h2>
-                            <img src="images/aside-teaser.jpg">
-                            <p></p>
-                        </div>
-                    </a>
-                    <a href="http://www.imdb.com/title/tt2293640/" class="minions">
-                        <div>
-                            <h2>Minions Movie</h2>
-                            <img src="images/aside-teaser.jpg">
-                            <p>Read more about Minios movie, which story is prequel to the Despicable Me franchise.</p>
-                        </div>
-                    </a>
+                    <div class="dm-3-tickets">
+                        <h2>Спечели билети</h2>
+                        <a href="http://www.imdb.com/title/tt3469046/">
+                            <img src="images/Despicable-Me-3-movie.jpg"></a>
+                        <p>Участвай в нашата игра и спечели билети за ексклузивната прожекция на "Аз проклетникът 3".</p>
+                    </div>
+                    <div class="minions-movie">
+                        <h2>Миньоните</h2>
+                        <a href="http://www.imdb.com/title/tt2293640/">
+                            <img src="images/aside-teaser.jpg"></a>
+                        <p>Вижте повече за филмa Миньоните</p>
+                    </div>
+                    <div class="logForm">
+                        <p>Влезте в профила си,
+                            <br>за да видите повече:</p>
+                        <form action="#">
+                            <div class="form-field">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <input type="text" name="name" required="required" placeholder="Username" />
+                            </div>
+                            <div class="form-field">
+                                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                <input type="password" name="pass" required="required" placeholder="Password">
+                            </div>
+                            <input type="submit" name="submit" value="Влизане" />
+                        </form>
+                    </div>
                 </div>
             </aside>
         </main>

@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #e36101;
+    font-size: 16px;
 }
 
 
@@ -21,14 +23,21 @@ main {
 .main {
     width: 80%;
     float: left;
+    border-right: 1px solid rgba(227, 97, 1, 0.3);
+}
+
+.main h1,
+.main h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #231f5c;
 }
 
 .minions img {
     width: 100%;
-}
-
-.main div h1 {
-    text-align: center;
 }
 
 
@@ -84,6 +93,7 @@ main {
 .hidden-minion1:focus {
     background: url('images/minion1.png') no-repeat center;
     background-size: contain;
+    outline: none;
 }
 
 .hidden-minion1:hover {
@@ -103,6 +113,7 @@ main {
 .hidden-minion2:focus {
     background: url('images/minion2.png') no-repeat center;
     background-size: contain;
+    outline: none;
 }
 
 .hidden-minion2:hover {
@@ -122,6 +133,7 @@ main {
 .hidden-minion3:focus {
     background: url('images/minion3.png') no-repeat center;
     background-size: contain;
+    outline: none;
 }
 
 .hidden-minion3:hover {
@@ -141,6 +153,7 @@ main {
 .hidden-minion4:focus {
     background: url('images/minion4.png') no-repeat center;
     background-size: contain;
+    outline: none;
 }
 
 .hidden-minion4:hover {
@@ -160,6 +173,7 @@ main {
 .hidden-minion5:focus {
     background: url('images/minion5.png') no-repeat center;
     background-size: contain;
+    outline: none;
 }
 
 .hidden-minion5:hover {
@@ -179,6 +193,7 @@ main {
 .hidden-minion6:focus {
     background: url('images/minion6.png') no-repeat center;
     background-size: contain;
+    outline: none;
 }
 
 .hidden-minion6:hover {
@@ -196,12 +211,135 @@ aside {
 }
 
 .teasers {
-    /*vertical-align: middle;*/
-    margin-top: 70px;
+    width: 100%;
+    margin-top: 100px;
+    color: #e36101;
+    font-size: 0.8rem;
+}
+
+
+/*.teasers h2,
+.teasers p {
+    text-shadow: 1px 1px 5px #ec6e37;
+}*/
+
+.teasers img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.dm-3-tickets,
+.minions-movie {
+    margin-top: 20px;
+}
+
+.teasers img {
+    box-shadow: 2px 2px 5px #999;
+}
+
+.logForm {
+    margin-top: 20px;
+}
+
+.logForm p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form-field {
+    padding-top: 10px;
+    position: relative;
+}
+
+.form-field input {
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    color: #e36101;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.form-field input::placeholder {
+    color: #e36101;
+    opacity: 0.8;
+}
+
+.form-field i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    opacity: 0.8;
+}
+
+.logForm > form > input {
+    margin-top: 10px;
+    color: #e36101;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    border: 1px solid #e36101;
+    width: 100%;
+    height: 20px;
+}
+
+.logForm > form > input:hover {
+    cursor: pointer;
+    background-color: #e36101;
+    color: #fff;
 }
 
 main:after {
     display: block;
     content: "";
     clear: both;
+}
+
+
+/*LINKS*/
+
+.links {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.links div {
+    display: inline-block;
+    margin-bottom: 50px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.links div button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #231f5c;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    margin-top: 50px;
+}
+
+.links div button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 35px;
+}
+
+.links div img {
+    float: left;
+    opacity: 0;
+    transform: translateX(-20%);
+    transition: transform 1s;
+}
+
+.links div:hover img {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }
