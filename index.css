@@ -74,7 +74,8 @@ body  main nav ul li a {
 	
 }
 
-body  main nav ul li a #selected {
+body  main nav ul li a #selected,
+body  main nav ul li a #selected-li {
     font-weight: bold; 
 }
 
@@ -152,10 +153,9 @@ section article .block p{
 	word-wrap: break-word;
 	text-indent: 20px;
 }
-
-/*footer {
+footer {
 	background: grey;
 	position: absolute;
 	width: 100%;
 	display: flex;
-}*/
+}
