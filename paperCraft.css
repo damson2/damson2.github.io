@@ -1,0 +1,132 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #e36101;
+    font-size: 16px;
+}
+
+main {
+    background-color: rgba(230, 168, 71, 0.3);
+    width: 100%;
+}
+
+
+/*ASIDE*/
+
+aside {
+    width: 20%;
+    float: right;
+    padding: 10px;
+}
+
+.teasers {
+    width: 100%;
+    margin-top: 100px;
+    color: #e36101;
+    font-size: 0.8rem;
+}
+
+.teasers img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.dm-3-tickets,
+.minions-movie {
+    margin-top: 20px;
+}
+
+.teasers img {
+    box-shadow: 2px 2px 5px #999;
+}
+
+.logForm {
+    margin-top: 20px;
+}
+
+.logForm p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form-field {
+    padding-top: 10px;
+    position: relative;
+}
+
+.form-field input {
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    color: #e36101;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.form-field input::placeholder {
+    color: #e36101;
+    opacity: 0.8;
+}
+
+.form-field i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    opacity: 0.8;
+}
+
+.logForm > form > input {
+    margin-top: 10px;
+    color: #e36101;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    border: 1px solid #e36101;
+    width: 100%;
+    height: 20px;
+}
+
+.logForm > form > input:hover {
+    cursor: pointer;
+    background-color: #e36101;
+    color: #fff;
+}
+
+main:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/*MAIN*/
+
+.main {
+    width: 80%;
+    float: left;
+    border-right: 1px solid rgba(227, 97, 1, 0.3);
+}
+
+.main h1,
+.main h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #231f5c;
+}
+
+
+/*PLAY*/
+
