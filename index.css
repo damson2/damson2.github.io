@@ -93,46 +93,49 @@ body header div .logo {
     background-color: #e36101;
     color: #fff;
 }
-body  nav {
+body nav {
     margin-bottom:2px;
-
 }
 
-body  nav ul {
-	width: 1000px;
+body nav ul {
+	width: 100%;
 	list-style-type: none;
 	margin-left: 55px;
+  text-align: center;
+  margin: 20px;
 	text-transform: uppercase;
 }
 
 body  nav ul li {
-    display: inline-block;
-    margin: 17px;
-	padding: 5px;
-	border: 1px solid #634936;
+  display: inline-block;
+  margin-right: 20px;
+	border: 1px solid #e36101;
 	border-radius: 2px 5px 2px 5px;
 	width: 200px;
+  height: 40px;
 	text-align: center;
 	letter-spacing: 1px;
-	background: #E88134;
+	background: none;
+  position: relative;
 }
 
 body  nav ul li a {
-    cursor: pointer;
-	color: #674635;
+  cursor: pointer;
+	color: #e36101;
 	text-decoration: none;
 	text-transform: uppercase;
-	margin: 5px;
+  line-height: 40px;
+  display: block;
 
 }
-
-body  nav ul li a #selected,
-body  nav ul li a #selected-li {
-    font-weight: bold;
+body nav ul li:hover {
+    background-color: #e36101;
 }
+
 
 body  nav ul li:hover > a {
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 body  nav ul li:hover > a + ul {
@@ -168,13 +171,13 @@ body  nav ul li ul .sub-nav-list li:last-of-type {
 body  nav ul li ul .sub-nav-list li > a {
     font-size: 1.2em;
 }
+
+
+
 main:after {
     display: block;
     content: "";
     clear: both;
-}
-nav > ul li:hover{
-    background-color: #f77a26;
 }
 main {
     margin: 0;
