@@ -13,8 +13,122 @@ body {
 }
 
 main {
-    background-color: rgba(230, 168, 71, 0.3);
+    /*background-color: rgba(230, 168, 71, 0.3);*/
+    background: linear-gradient(rgba(230, 168, 71, 0.3), #fff, rgba(230, 168, 71, 0.3));
     width: 100%;
+}
+
+.main {
+    width: 80%;
+    float: left;
+    border-right: 1px solid rgba(227, 97, 1, 0.3);
+}
+
+.main h1,
+.main h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #231f5c;
+}
+
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px;
+}
+
+body header div .logo img {
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+body header div .logo {
+    float: left;
+    width: 40%;
+    position: absolute;
+}
+
+.headerContact {
+    width: 10%;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+/*NAV*/
+
+body nav {
+    width: 100%;
+}
+
+body nav ul {
+    width: 100%;
+    list-style-type: none;
+    /*margin-left: 55px;*/
+    text-transform: uppercse;
+    text-align: center;
+    margin: 20px;
+}
+
+body nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    /*padding: 5px;*/
+    border: 1px solid #e36101;
+    border-radius: 2px 5px 2px 5px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: none;
+    position: relative;
+}
+
+body nav ul li a {
+    color: #e36101;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 40px;
+    display: block;
+}
+
+body nav ul li:hover {
+    background-color: #e36101;
+}
+
+body nav ul li:hover > a {
+    color: #fff;
+}
+
+body nav ul li ul.sub-nav-list1,
+body nav ul li ul.sub-nav-list2 {
+    display: none;
+    font-size: 12px;
+}
+
+body nav ul li:hover ul.sub-nav-list1 {
+    position: absolute;
+    top: 20px;
+    left: -36px;
+    display: block;
+    width: 250px;
+}
+
+body nav ul li:hover ul.sub-nav-list2 {
+    position: absolute;
+    top: 20px;
+    left: -36px;
+    display: block;
+    width: 250px;
 }
 
 
@@ -111,22 +225,91 @@ main:after {
 
 /*MAIN*/
 
-.main {
-    width: 80%;
-    float: left;
-    border-right: 1px solid rgba(227, 97, 1, 0.3);
-}
 
-.main h1,
-.main h2 {
-    margin-bottom: 10px;
+/*PAPER CRAFTS*/
+
+.paper-crafts div {
+    padding: 30px;
     text-align: center;
 }
 
-h2 {
-    color: #231f5c;
+.paper-crafts div img {
+    width: 100%;
+}
+
+.paper-crafts button {
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    border: 1px solid #e36101;
+    width: 50%;
+    height: 50px;
+}
+
+.paper-crafts button a {
+    padding: 20px 125px;
+    color: #e36101;
+    text-decoration: none;
+}
+
+.paper-crafts button:hover {
+    background-color: #e36101;
+}
+
+.paper-crafts button:hover a {
+    color: #fff;
 }
 
 
-/*PLAY*/
+/*FOOTER*/
 
+footer{
+    margin:0 auto;
+    width: 1100px;
+  line-height:1.7rem;
+    position: relative;
+    padding: 30px;
+  text-align: center;
+  background-color: #EF6F50;
+}
+footer ul{
+    margin: 5px;
+    padding: 5px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing: 1px;
+    float: right;
+    line-height:1.6rem;
+     margin-right: 20px;
+}
+
+footer ul li  a{
+    text-decoration: none;
+    color: #674635;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer ul li a:hover {
+    color: orange;
+}
+
+footer p{
+    color: #674635;
+  margin-left: 20px;
+    font-size: 14px;
+    float: left;
+}
+footer p img{
+  right: 380px;
+  width: 70px;
+}
+footer:hover{
+  background-image: url('images/smiley.gif');
+  width: 439px;
+}
