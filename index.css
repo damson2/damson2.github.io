@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -340,3 +341,348 @@ footer:hover{
   background-image: url('images/smiley.gif');
   width: 439px;
 }
+=======
+@import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, body, header, main, footer, div, section, aside, article, p, span, h2, ul, li, a, img, input {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+	/*background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcf8f8+4,faddbc+100&0.96+4,1+100 */
+background: -moz-linear-gradient(top, rgba(252,248,248,0.96) 4%, rgba(250,221,188,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(252,248,248,0.96) 4%,rgba(250,221,188,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(252,248,248,0.96) 4%,rgba(250,221,188,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5fcf8f8', endColorstr='#faddbc',GradientType=0); /* IE6-9 */
+}
+
+header {
+	width:100%;
+	height:350px;
+	background-size:cover ;
+	background-image: url("images/despicableMe_text.png");
+	opacity: 0.8;
+	background-repeat: no-repeat ;
+}
+
+body header div .logo {
+	position: absolute;
+}
+.logForm{
+    float: right;
+	margin-top: 35px;
+	position: relative;
+	width: 20%;
+	}
+
+.asideContact {
+	position:absolute;
+	display:inline;
+	margin: 15px;
+	padding-bottom: 15px;
+}
+.headerContact a img{
+
+	float:right;
+}
+.logForm p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form-field {
+    padding-top: 10px;
+    position: relative;
+}
+
+.form-field input {
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    color: #e36101;
+    padding-top: 5px;
+    width:150px;
+}
+
+.form-field input::placeholder {
+    color: #e36101;
+    opacity: 0.8;
+}
+
+.form-field i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    opacity: 0.8;
+}
+
+.logForm > form > input {
+    margin-top: 10px;
+    color: #e36101;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    border: 1px solid #e36101;
+    width: 100%;
+    height: 20px;
+}
+
+.logForm > form > input:hover {
+    cursor: pointer;
+    background-color: #e36101;
+    color: #fff;
+}
+body  nav {
+    margin-bottom:2px;
+
+}
+
+body  nav ul {
+	width: 1000px;
+	list-style-type: none;
+	margin-left: 55px;
+	text-transform: uppercase;
+}
+
+body  nav ul li {
+    display: inline-block;
+    margin: 17px;
+	padding: 5px;
+	border: 1px solid #634936;
+	border-radius: 2px 5px 2px 5px;
+	width: 200px;
+	text-align: center;
+	letter-spacing: 1px;
+	background: #E88134;
+}
+
+body  nav ul li a {
+    cursor: pointer;
+	color: #674635;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 5px;
+
+}
+
+body  nav ul li a #selected,
+body  nav ul li a #selected-li {
+    font-weight: bold;
+}
+
+body  nav ul li:hover > a {
+    text-decoration: none;
+}
+
+body  nav ul li:hover > a + ul {
+    display: block;
+    width: 250px;
+	margin: 10px;
+
+}
+
+body  nav ul li ul.sub-nav-list {
+    position: absolute;
+    display: none;
+    border-radius: 2px;
+	z-index: 1;
+	width: 60px;
+}
+
+body  nav ul li ul .sub-nav-list li {
+    float: none;
+    margin: 0 10px 0 10px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #634936;
+}
+
+body  nav ul li ul .sub-nav-list li a {
+	color: #FEBD37;
+}
+
+body  nav ul li ul .sub-nav-list li:last-of-type {
+    border-bottom: none;
+}
+
+body  nav ul li ul .sub-nav-list li > a {
+    font-size: 1.2em;
+}
+main:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+nav > ul li:hover{
+    background-color: #f77a26;
+}
+main {
+    margin: 0;
+    background-color: #eae7ee;
+    margin-top: 30px;
+    overflow: auto;
+	position: relative;
+}
+section:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+section {
+	width: auto;
+	margin: 10px;
+	padding: 5px;
+
+}
+ section aside {
+    width: 40%;
+    float: right;
+    padding-left: 5px;
+	border: none;
+	box-sizing: border-box;
+	/*background-image: url("images/lenta.gradiend.png");
+	background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+section aside .video {
+	padding-left: 10px;
+	margin-bottom: 0px;
+	border: none;
+	margin: 10px;
+	position:relative;
+}
+
+section aside h2{
+	color: red;
+	font-size: 24px;
+	margin: 10px;
+	padding-top: 45px;
+	text-align: center;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-name: example;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+section aside h2 span {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {color: red;}
+    25%  {color: orange;}
+    50%  {color: yellow;}
+    100% {color: red;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: orange;}
+    50%  {color: yellow;}
+    100% {color: red;}
+}
+
+section article {
+	 width: 60%;
+    float: left;
+    padding: 5px;
+	   box-sizing: border-box;
+}
+section article img{
+	width: 220px;
+	height: 220px;
+  float: left;
+  margin-right: 20px;
+}
+section article .block {
+	padding:5px;
+	margin-top:	10px;
+	text-align: justify;
+
+}
+
+section article .block p{
+	font-size: 20px;
+	color:red;
+	word-wrap: break-word;
+	text-indent: 20px;
+	line-height: 1.2;
+}
+
+section article .block  span p{
+	color: black;
+	font-style: italic;
+	font-size: 14px;
+	float: right;
+	margin: 2px;
+}
+section article .block  span p a {
+	color: black;
+	text-decoration: none;
+}
+section article .block  span p a:hover {
+	color: orange;
+}
+footer{
+	margin:0 auto;
+	width: 1100px;
+  line-height:1.7rem;
+	position: relative;
+	padding: 30px;
+  text-align: center;
+  background-color: #EF6F50;
+}
+footer ul{
+	margin: 5px;
+	padding: 5xp;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style-type: none;
+	letter-spacing: 1px;
+	float: right;
+	line-height:1.6rem;
+	 margin-right: 20px;
+}
+
+footer ul li  a{
+	text-decoration: none;
+	color: #FEDC30;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+footer ul li a:hover {
+	color: orange;
+}
+
+footer p{
+	color: #fff;
+  margin-left: 20px;
+	font-size: 14px;
+	float: left;
+}
+footer p img{
+  right: 380px;
+  width: 70px;
+}
+footer{
+  background-image: url('images/smiley.gif');
+  width: 96%;
+  height: 100px;
+}
+>>>>>>> footerDone
