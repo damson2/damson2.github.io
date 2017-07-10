@@ -1,0 +1,345 @@
+@import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, body, header, main, footer, div, section, aside, article, p, span, h2, ul, li, a, img, input {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+	
+}
+
+/*HEADER*/
+
+header {
+width: 90%;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 1px;
+	padding-left: 50px;
+	
+}
+
+body header div .logo img {
+margin-left: 55px;
+margin-top: 10px;
+
+}
+
+body header div .logo {
+    float: left;
+    width: 40%;
+    position: absolute;
+	z-index:10000;
+}
+
+/*CONTACT*/
+footer .footerContact {
+    width: 250px;
+	height: 33px;
+	margin-top: 23px;
+
+}
+footer .footerContact a > img {
+	float: left;
+	padding: 2px;
+	margin: 5px;
+	margin-right: 3px;
+	padding: 2px;
+
+}
+
+/*SEARCH FORM*/
+div .search  > input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+    background-color: #fff2cc;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+div .search  > input[type=text]:focus {
+    width: 100%;
+	border:1px solid orange;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #1a0c00;;
+}
+
+div.search  > input [type=text]:hover {
+    cursor: pointer;
+    background-color: #e36101;
+    color: #fff;
+}
+
+div .search  > i {
+	font-size: 19px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 0.8;
+}
+
+/*NAV*/
+
+body nav {
+    width: 100%;
+position: fixed;
+z-index: 5;
+
+}
+
+body nav ul {
+    width: 100%;
+    list-style-type: none;
+    text-transform: uppercse;
+    text-align: center;
+	margin-top:10px;
+padding-left: 60px;
+}
+
+body nav ul li {
+    display: inline-block;
+margin-left: 33px;
+    border: 1px solid #1a0d00;
+border-radius: 2px 6px 2px 6px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #663300;
+    position: relative;
+}
+
+body nav ul li a {
+    color: #e36101;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 40px;
+    display: block;
+}
+
+body nav ul li:hover {
+    background-color: #e36101;
+}
+
+body nav ul li:hover > a {
+    color: #fff;
+}
+
+body nav ul li ul.sub-nav-list1,
+body nav ul li ul.sub-nav-list2 {
+    display: none;
+    font-size: 12px;
+}
+
+body nav ul li:hover ul.sub-nav-list1 {
+    position: absolute;
+top: 31px;
+left: -100px;
+    display: block;
+    width: 250px;
+}
+
+body nav ul li:hover ul.sub-nav-list2 {
+    position: absolute;
+top: 31px;
+left: -100px;
+    display: block;
+    width: 250px;
+}
+
+/*MAIN*/
+main {
+margin: 0 auto;
+background-color: #fff2cc;
+margin-top: 10px;
+    overflow: auto;
+	position: relative;
+width: 90%;
+}
+
+main p  a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #e36101;
+}
+
+main p  a:hover{
+	font-size: 16px;
+	color: #1a0c00;
+}
+
+/*SECTION*/
+section {
+	margin: 15px;
+	padding: 5px;
+	
+}
+/*ARTICLE*/
+section article {
+	width: 60%;
+    float: right;
+    padding: 7px;
+	border: none;
+	box-sizing: border-box;
+}
+
+section article h2 {
+	padding-bottom: 3px;
+	color: #1a0c00;
+}
+
+section article .contact{
+	width: 25px;
+	height: 25px;
+   display: inline;
+    margin-right: 20px;
+}
+
+section article .block {
+	padding: 2px;
+	margin-top:	5px;
+	text-align: justify;
+
+}
+
+section article .block p{
+	font-size: 20px;
+color: #1a0c00;
+	word-wrap: break-word;
+	text-indent: 20px;
+	line-height: 1.1;
+}
+
+section article .block  p span {
+	color: black;
+	font-style: italic;
+	font-size: 14px;
+	float: right;
+	margin: 2px;
+}
+section article .block  p span  a {
+	color: black;
+	text-decoration: none;
+}
+section article .block  p span  a:hover {
+	color: orange;
+}
+
+/*LINKS
+
+.links {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.links div {
+    display: inline-block;
+    margin-bottom: 50px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.links div button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #231f5c;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    margin-top: 50px;
+}
+
+.links div button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 35px;
+}
+*/
+.teasers {
+margin-bottom: 5px;
+margin-left:17px;
+    color: #e36101;
+    font-size: 0.8rem;
+	padding:2px;
+}
+
+.teasers img {
+width: 380px;
+height: 180px;
+}
+
+.teasers img {
+    box-shadow: 2px 2px 5px #999;
+}
+.dm-3-tickets,
+.minions-movie {
+margin-top:10px;
+	margin-left: 30px;
+}
+/*FOOTER*/
+footer {
+    margin: 0 auto;
+	padding: 5px;
+width: 85.5%;
+height: 75px;
+    line-height: 1.7rem;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+background-image: url('images/smiley.gif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+footer ul {
+    margin: 5px;
+    padding: 5px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing: 1px;
+    float: right;
+    line-height: 1.6rem;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+color: #e36101;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer ul li a:hover {
+color: #fff;
+}
+
+footer p {
+color: #e36101;
+margin-left: 15px;
+    font-size: 14px;
+    float: left;
+}
+
+footer p img {
+    right: 380px;
+    width: 70px;
+}
+
+
+
