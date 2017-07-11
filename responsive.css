@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px){
+@media all and (max-width: 1024px){
   .wrapper{
     width: 100%;
   }
@@ -80,12 +80,12 @@
   }
 }
 
-@media screen and (max-width: 740px){
+@media all and (max-width: 740px){
   .wrapper{
     width: 70%;
   }
 }
 
-@media screen and (max-width: 380px){
+@media all and (max-width: 380px){
 
 }
