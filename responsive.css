@@ -137,8 +137,8 @@
     margin: 0 auto;
   }
   section aside .video{
-    margin-left: -187px;
-    margin-right: -187px;
+    margin-left: -163px;
+    margin-right: -168px;
   }
   section aside h2{
     margin: 0 auto;
@@ -167,7 +167,36 @@
     display: block;
   }
 }
+@media all and (max-width: 528px) {
+  header{
+    width: 110%;
+  }
+}
 
-@media all and (max-width: 380px){
-
+@media all and (max-width: 480px){
+  header{
+    width: 496%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  span{
+    text-align: center;
+    margin: 0 auto;
+  }
+  body nav{
+    margin: 0 auto;
+  }
+  body nav ul{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  body nav ul li{
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+  }
+  body nav ul li ul.sub-nav-list1, body nav ul li ul.sub-nav-list2{
+    z-index: 25;
+  }
 }
