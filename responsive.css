@@ -3,8 +3,13 @@
     width: 100%;
   }
   main{
-    width: 88%;
+    width: 100%;
+    margin: -115px auto;
   }
+  body{
+    width: 98%;
+  }
+  
   body nav{
     position: absolute;
   }
@@ -66,13 +71,20 @@
   }
   .teasers img{
     width: 305px;
+    height: 250px;
+
   }
   footer{
-    width: 82%;
+    width: 100%;
     background-image: url('images/smileyPic.png');
+    margin-top: 74px;
   }
   input[type="text"], input[type="password"]{
     width: 200px;
+  }
+  body .wrapper > .top{
+    width: 20%;
+    margin: 0;
   }
 }
 
