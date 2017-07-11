@@ -7,24 +7,21 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-	
 }
 
 /*HEADER*/
 
 header {
-width: 90%;
+	width: 90%;
     display: -webkit-flex;
     display: flex;
     padding-top: 1px;
 	padding-left: 50px;
-	
 }
 
 body header div .logo img {
-margin-left: 55px;
-margin-top: 10px;
-
+	margin-left: 55px;
+	margin-top: 10px;
 }
 
 body header div .logo {
@@ -149,11 +146,11 @@ border-radius: 2px 6px 2px 6px;
     background: none;
 width: 155px;
 height: 30px;
-font-size: 16px;
+	font-size: 16px;
     font-weight: bold;
-margin-left: 41px;
-letter-spacing: 8px;
-text-transform:uppercase;
+	margin-left: 41px;
+	letter-spacing: 8px;
+	text-transform:uppercase;
 }
 
 .logForm > form > input:hover {
@@ -161,12 +158,13 @@ text-transform:uppercase;
     background-color: #e36101;
     color: #fff;
 }
+
 /*NAV*/
 
 body nav {
     width: 100%;
-position: fixed;
-z-index: 5;
+	position: fixed;
+	z-index: 5;
 
 }
 
@@ -216,30 +214,49 @@ body nav ul li ul.sub-nav-list2 {
 
 body nav ul li:hover ul.sub-nav-list1 {
     position: absolute;
-top: 31px;
-left: -100px;
+	top: 31px;
+	left: -100px;
     display: block;
     width: 250px;
 }
 
 body nav ul li:hover ul.sub-nav-list2 {
     position: absolute;
-top: 31px;
-left: -100px;
+	top: 31px;
+	left: -100px;
     display: block;
     width: 250px;
 }
 
 /*MAIN*/
 main {
-margin: 0 auto;
-background-color: #fff2cc;
-margin-top: 10px;
+	margin: 0 auto;
+	background-color: #fff2cc;
+	margin-top: 10px;
     overflow: auto;
 	position: relative;
-width: 90%;
+	width: 90%;
 }
 
+body .wrapper > .top {
+	background-color: #fff2cc;
+	width: 90%;
+	margin:0 auto;
+}
+
+body .wrapper > .top p a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #e36101;
+	padding:5px;
+}
+body .wrapper > .top p a:hover {
+	font-size: 16px;
+	color: #1a0c00;
+}
+
+
+/*SECTION*/
 section {
 	margin: 15px;
 	padding: 5px;
@@ -458,6 +475,3 @@ footer p img {
     right: 380px;
     width: 70px;
 }
-
-
-
