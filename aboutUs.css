@@ -150,33 +150,40 @@ left: -100px;
 
 body nav ul li:hover ul.sub-nav-list2 {
     position: absolute;
-top: 31px;
-left: -100px;
+	top: 31px;
+	left: -100px;
     display: block;
     width: 250px;
 }
 
 /*MAIN*/
 main {
-margin: 0 auto;
-background-color: #fff2cc;
-margin-top: 10px;
+	margin: 0 auto;
+	background-color: #fff2cc;
+	margin-top: 10px;
     overflow: auto;
 	position: relative;
-width: 90%;
+	width: 90%;
 }
 
-main p  a{
+.top {
+	background-color: #fff2cc;
+	width: 90%;
+	margin:0 auto;
+}
+
+.top p a{
 	font-size: 16px;
 	text-decoration: none;
 	color: #e36101;
+	padding:5px;
 }
-
-main p  a:hover{
+.top p a:hover {
 	font-size: 16px;
 	color: #1a0c00;
 }
 
+}
 /*SECTION*/
 section {
 	margin: 15px;
@@ -185,122 +192,98 @@ section {
 }
 /*ARTICLE*/
 section article {
-	width: 60%;
+	width: 55%;
+	border:1px solid red;
     float: right;
     padding: 7px;
 	border: none;
 	box-sizing: border-box;
 }
 
-section article h2 {
-	padding-bottom: 3px;
+section article .block  h2 {
+	margin:15px;
+	margin-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
 	color: #1a0c00;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 
-section article .contact{
-	width: 25px;
-	height: 25px;
-   display: inline;
-    margin-right: 20px;
-}
-
+section article .block  h3 {
+	margin:15px;
+	margin-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	color: #1a0c00;
+	font-size: 22px;
+} 
 section article .block {
-	padding: 2px;
+	padding: 15px;
 	margin-top:	5px;
 	text-align: justify;
-
 }
 
 section article .block p{
 	font-size: 20px;
-color: #1a0c00;
+	color: #1a0c00;
 	word-wrap: break-word;
 	text-indent: 20px;
 	line-height: 1.1;
 }
 
-section article .block  p span {
-	color: black;
-	font-style: italic;
-	font-size: 14px;
-	float: right;
-	margin: 2px;
-}
-section article .block  p span  a {
-	color: black;
-	text-decoration: none;
-}
-section article .block  p span  a:hover {
-	color: orange;
+section article .block i {
+	color: #ff8000;
+	font-size: 15px;
+	padding-left: 2px;
 }
 
-/*LINKS
-
-.links {
-    width: 100%;
-    margin-top: 20px;
+section article .block i:hover {
+	color: #ff6600;
+	font-size: 17px;
+}
+/* ASIDE*/
+section aside {
+	width: 45%;
+    float: left;
+    padding: 7px;
+	border: none;
+	box-sizing: border-box;
 }
 
-.links div {
-    display: inline-block;
-    margin-bottom: 50px;
-    position: relative;
-    margin-left: 20px;
+section aside .blockImg {
+	padding: 10px;
+	margin: 5px;
 }
 
-.links div button {
-    width: 100px;
-    height: 50px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background-color: #231f5c;
-    text-transform: uppercase;
-    font-weight: bold;
-    float: right;
-    margin-top: 50px;
+section aside .blockImg h2 {
+	margin: 15px;
+	margin-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	text-align: left;
+	color: #1a0c00;
+	font-size: 24px;
+	text-transform: uppercase;
 }
 
-.links div button a {
-    text-decoration: none;
-    color: #fff;
-    padding: 20px 35px;
-}
-*/
-.teasers {
-margin-bottom: 5px;
-margin-left:17px;
-    color: #e36101;
-    font-size: 0.8rem;
-	padding:2px;
-}
-
-.teasers img {
-width: 380px;
-height: 180px;
-}
-
-.teasers img {
-    box-shadow: 2px 2px 5px #999;
-}
-.dm-3-tickets,
-.minions-movie {
-margin-top:10px;
-	margin-left: 30px;
+section aside .blockImg img {
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 2px 2px 7px #999;
 }
 /*FOOTER*/
 footer {
     margin: 0 auto;
 	padding: 5px;
-width: 85.5%;
-height: 75px;
+	width: 85.5%;
+	height: 75px;
     line-height: 1.7rem;
     position: relative;
     padding: 30px;
     text-align: center;
-background-image: url('images/smiley.gif');
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url('images/smiley.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 footer ul {
@@ -319,19 +302,19 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-color: #e36101;
+	color: #e36101;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 footer ul li a:hover {
-color: #fff;
+	color: #fff;
 }
 
 footer p {
-color: #e36101;
-margin-left: 15px;
+	color: #e36101;
+	margin-left: 15px;
     font-size: 14px;
     float: left;
 }
