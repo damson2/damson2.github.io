@@ -1,1 +1,390 @@
+@import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*,
+body,
+header,
+main,
+footer,
+div,
+section,
+aside,
+article,
+p,
+span,
+h2,
+ul,
+li,
+a,
+img,
+input {
+    padding: 0px;
+    margin: 0px;
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+body header div.logo {
+    float: left;
+    width: 20%;
+    position: absolute;
+    /*z-index: 10000;*/
+    margin-right: 20px;
+}
+
+
+/*NAV*/
+
+body nav {
+    width: 75%;
+    float: right;
+    margin: 0 40px 0 70px;
+    display: -webkit-flex;
+    display: flex;
+}
+
+body nav ul {
+    width: 100%;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    /*padding-left: 70px;*/
+}
+
+body nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    border: 1px solid #1a0d00;
+    border-radius: 2px 6px 2px 6px;
+    /*width: 200px;*/
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #663300;
+    position: relative;
+}
+
+body nav ul li a {
+    color: #e36101;
+    text-shadow: 0 0 3px #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 40px;
+    display: block;
+    font-weight: bold;
+}
+
+body nav ul li:hover {
+    background-color: #e36101;
+}
+
+body nav ul li:hover > a {
+    color: #fff;
+}
+
+body nav ul li ul.sub-nav-list1,
+body nav ul li ul.sub-nav-list2 {
+    display: none;
+    font-size: 12px;
+}
+
+body nav ul li:hover ul.sub-nav-list1 {
+    position: absolute;
+    top: 31px;
+    left: -30px;
+    display: block;
+}
+
+body nav ul li:hover ul.sub-nav-list1 li {
+    width: 100%;
+}
+
+body nav ul li:hover ul.sub-nav-list2 li {
+    width: 100%;
+}
+
+body nav ul li:hover ul.sub-nav-list2 {
+    position: absolute;
+    top: 31px;
+    left: -30px;
+    display: block;
+}
+
+header:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+aside > .headerContact {
+    height: 33px;
+    /*padding-left: 50px;*/
+}
+
+aside > .headerContact a > img {
+    margin-top: 8px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/*SEARCH FORM*/
+
+div .search > input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+    background-color: #fff2cc;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+}
+
+div .search > input[type=text]:focus {
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #1a0c00;
+}
+
+div .search > input [type=text]:hover {
+    cursor: pointer;
+    background-color: #e36101;
+    color: #fff;
+}
+
+div .search > i {
+    font-size: 19px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 0.8;
+}
+
+
+/*MAIN*/
+
+main {
+    margin: 0 auto;
+    background-color: #fff2cc;
+    margin-top: 10px;
+    overflow: auto;
+    position: relative;
+    top: 200px;
+    width: 100%;
+}
+
+.top {
+    background-color: #fff2cc;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #e36101;
+    padding: 5px;
+}
+
+.top p a:hover {
+    font-size: 16px;
+    color: #1a0c00;
+}
+
+
+}
+
+/*SECTION*/
+section {
+    margin: 15px;
+    padding: 5px;
+    width: 100%;
+}
+
+/*ARTICLE*/
+section article {
+    width: 60%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+section article .block {
+    padding: 15px;
+    text-align: left;
+}
+section article .block h2 {
+    margin: 15px;
+    /*margin-right: 10px;*/
+    
+    padding-bottom: 15px;
+    /*padding-left: 10px;*/
+    
+    color: #1a0c00;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+section article .block h3 {
+    margin: 15px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #1a0c00;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+section article .block p {
+    font-size: 18px;
+    color: #1a0c00;
+    word-wrap: break-word;
+    text-indent: 20px;
+    line-height: 1.1;
+    font-style: italic;
+}
+section article .block i {
+    color: #ff8000;
+    font-size: 15px;
+    padding-left: 2px;
+}
+section article .block i:hover {
+    color: #ff6600;
+    font-size: 17px;
+}
+section article .block img {
+    box-shadow: 2px 2px 7px #999;
+}
+section article #teamLogo {
+    box-shadow: none;
+}
+
+/* ASIDE*/
+section aside {
+    width: 40%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section aside .blockImg {
+    padding: 10px;
+    margin: 5px;
+}
+section aside .blockImg h2 {
+    margin-bottom: 10px;
+    text-align: left;
+    color: #1a0c00;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+section aside .blockImg img {
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 7px #999;
+    width: 100%;
+}
+
+/*BACK TO TOP ARROW*/
+body .wrapper > .top {
+    background-color: #fff2cc;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: -167px;
+    padding: 10px;
+}
+body .wrapper > .top p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #e36101;
+    padding: 5px;
+}
+body .wrapper > .top p a:hover {
+    font-size: 16px;
+    color: #1a0c00;
+}
+
+/*BACK TO TOP ARROW - END*/
+
+/*FOOTER*/
+footer {
+    position: relative;
+    bottom: -167px;
+    width: 100%;
+    /*text-align: center;*/
+    
+    background-color: #fff2cc;
+    border-top: 1px solid orange;
+}
+.footer-wrapper {
+    padding: 20px;
+    background-image: url('images/smiley.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+footer ul {
+    margin: 5px;
+    padding: 5px;
+    width: 25%;
+    float: right;
+}
+footer ul li {
+    display: block;
+    list-style-type: none;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+    margin-right: 20px;
+    text-align: left;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #e36101;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+footer ul li a:hover {
+    color: #000;
+}
+footer p {
+    color: #e36101;
+    margin-left: 15px;
+    font-size: 14px;
+}
+footer p img {
+    width: 150px;
+}
+footer .footerContact {
+    width: 250px;
+    height: 33px;
+    display: block;
+}
+footer .footerContact a > img {
+    margin: 5px;
+    margin-right: 3px;
+    padding: 2px;
+}
