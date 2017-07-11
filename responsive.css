@@ -9,7 +9,6 @@
   body{
     width: 98%;
   }
-  
   body nav{
     position: absolute;
   }
@@ -17,9 +16,6 @@
     margin-left: 0px;
     width: 98%;
     padding-left: 0px;
-  }
-  body nav ul li{
-    margin-left:
   }
   .logo a img{
     width: 50px;
@@ -43,9 +39,6 @@
     letter-spacing: 0px;
     margin-left: -100px;
   }
-  .logForm{
-
-  }
   .user-info{
     margin-left: -100px;
   }
@@ -62,7 +55,7 @@
   }
   iframe{
     width: 300px;
-    height: 300px
+    height: 300px;
   }
   .teasers{
     margin-left: -64px;
@@ -72,7 +65,6 @@
   .teasers img{
     width: 305px;
     height: 250px;
-
   }
   footer{
     width: 100%;
@@ -88,22 +80,10 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 740px){
-
+  .wrapper{
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 380px){
