@@ -208,6 +208,7 @@ section article .block  h2 {
 	color: #1a0c00;
 	font-size: 30px;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 section article .block  h3 {
@@ -217,6 +218,7 @@ section article .block  h3 {
 	padding-left: 10px;
 	color: #1a0c00;
 	font-size: 22px;
+	letter-spacing: 1px;
 } 
 section article .block {
 	padding: 15px;
@@ -225,11 +227,12 @@ section article .block {
 }
 
 section article .block p{
-	font-size: 20px;
+	font-size: 18px;
 	color: #1a0c00;
 	word-wrap: break-word;
 	text-indent: 20px;
 	line-height: 1.1;
+	font-style: italic;
 }
 
 section article .block i {
@@ -241,6 +244,14 @@ section article .block i {
 section article .block i:hover {
 	color: #ff6600;
 	font-size: 17px;
+}
+
+section article .block img {
+	box-shadow: 2px 2px 7px #999;
+}
+
+section article #teamLogo {
+box-shadow: none;
 }
 /* ASIDE*/
 section aside {
