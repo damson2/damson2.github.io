@@ -4,13 +4,16 @@
   }
   main{
     width: 100%;
-    margin: -115px auto;
+    margin: 0 auto;
   }
   body{
     width: 98%;
   }
   body nav{
     position: absolute;
+    float: none;
+    margin: 0 40px 0 0px;
+    width: 100%;
   }
   body nav ul{
     margin-left: 0px;
@@ -37,13 +40,19 @@
   }
   .logForm p{
     letter-spacing: 0px;
-    margin-left: -100px;
+    margin-left: -115px;
+  }
+  .userInput{
+    margin-left: -90px;
   }
   .user-info{
     margin-left: -100px;
   }
   aside > .headerContact{
     margin-left: -56px;
+  }
+  header{
+    height: 90px;
   }
   section aside h2{
     text-transform: none;
@@ -63,26 +72,41 @@
     margin-top: -40px;
   }
   .teasers img{
-    width: 305px;
+    width: 250px;
     height: 250px;
   }
   footer{
     width: 100%;
     background-image: url('images/smileyPic.png');
-    margin-top: 74px;
+    margin-top: 20px;
   }
   input[type="text"], input[type="password"]{
     width: 200px;
   }
   body .wrapper > .top{
-    width: 20%;
-    margin: 0;
+    width: 98%;
+    bottom: -185px;
+  }
+  .footer-wrapper{
+    padding: 0;
+  }
+}
+@media all and (max-width: 920px) {
+  .logo{
+    display: none;
   }
 }
 
 @media all and (max-width: 740px){
   .wrapper{
     width: 70%;
+  }
+  body nav{
+    margin: 0 40px 0 -15px;
+    width: 100%;
+  }
+  .logo{
+    display: none;
   }
 }
 
