@@ -1,407 +1,415 @@
-<<<<<<< .mine
-@media screen and (max-width: 1024px){
-	
+@media all and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    body {
+        width: 98%;
+    }
+    body nav {
+        position: absolute;
+        float: none;
+        margin: 0 40px 0 0px;
+        width: 100%;
+    }
+    body nav ul {
+        margin-left: 0px;
+        width: 98%;
+        padding-left: 0px;
+    }
+    .logo a img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    section article #article-img img {
+        margin-right: 0px;
+        width: 430px;
+        height: 100%;
+    }
+    section article {
+        float: none;
+        width: 55%;
+    }
+    section aside {
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+    .logForm p {
+        letter-spacing: 0px;
+        margin-left: -115px;
+    }
+    .userInput {
+        margin-left: -90px;
+    }
+    .user-info {
+        margin-left: -100px;
+    }
+    aside > .headerContact {
+        margin-left: -56px;
+    }
+    header {
+        height: 90px;
+    }
+    section aside h2 {
+        text-transform: none;
+        letter-spacing: 0px;
+        margin-left: -130px;
+    }
+    section aside .video {
+        margin-left: -60px;
+    }
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+    .teasers {
+        margin-left: -64px;
+        padding: 0;
+        margin-top: -40px;
+    }
+    .teasers img {
+        width: 250px;
+        height: 250px;
+    }
+    footer {
+        width: 100%;
+        background-image: url('images/smileyPic.png');
+        margin-top: 20px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 200px;
+    }
+    body .wrapper > .top {
+        width: 98%;
+        bottom: -185px;
+    }
+    .footer-wrapper {
+        padding: 0;
+    }
 }
 
-@media screen and (max-width: 740px){
-	
-}
-
-@media screen and (max-width: 380px){
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-@media all and (max-width: 1024px){
-  .wrapper{
-    width: 100%;
-  }
-  main{
-    width: 100%;
-    margin: 0 auto;
-  }
-  body{
-    width: 98%;
-  }
-  body nav{
-    position: absolute;
-    float: none;
-    margin: 0 40px 0 0px;
-    width: 100%;
-  }
-  body nav ul{
-    margin-left: 0px;
-    width: 98%;
-    padding-left: 0px;
-  }
-  .logo a img{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-  }
-  section article #article-img img{
-    margin-right: 0px;
-    width: 430px;
-    height: 100%;
-  }
-  section article{
-    float: none;
-    width: 55%;
-  }
-  section aside{
-    margin-left: 10px;
-    padding-left: 0px;
-  }
-  .logForm p{
-    letter-spacing: 0px;
-    margin-left: -115px;
-  }
-  .userInput{
-    margin-left: -90px;
-  }
-  .user-info{
-    margin-left: -100px;
-  }
-  aside > .headerContact{
-    margin-left: -56px;
-  }
-  header{
-    height: 90px;
-  }
-  section aside h2{
-    text-transform: none;
-    letter-spacing: 0px;
-    margin-left: -130px;
-  }
-  section aside .video{
-    margin-left: -60px;
-  }
-  iframe{
-    width: 300px;
-    height: 300px;
-  }
-  .teasers{
-    margin-left: -64px;
-    padding: 0;
-    margin-top: -40px;
-  }
-  .teasers img{
-    width: 250px;
-    height: 250px;
-  }
-  footer{
-    width: 100%;
-    background-image: url('images/smileyPic.png');
-    margin-top: 20px;
-  }
-  input[type="text"], input[type="password"]{
-    width: 200px;
-  }
-  body .wrapper > .top{
-    width: 98%;
-    bottom: -185px;
-  }
-  .footer-wrapper{
-    padding: 0;
-  }
-}
 @media all and (max-width: 920px) {
-  .logo{
-    display: none;
-  }
+    .logo {
+        display: none;
+    }
 }
 
-@media all and (max-width: 740px){
-  .wrapper{
-    width: 100%;
-  }
-  main{
-    width: 97%;
-    text-align: center;
-  }
-  body nav{
-    padding: 0;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    margin-right: 0px;
-    margin-left: -15px;
-  }
-  body nav ul li{
-    margin: 0;
-  }
-  body nav ul li a{
-    display: inline-block;
-  }
-  .logo{
-    display: none;
-  }
-  section{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  section aside{
-    margin: 0 auto;
-  }
-  section article{
-    width: 100%;
-  }
-  .logForm{
-    margin: 0 auto;
-  }
-  section aside .video{
-    margin-left: -163px;
-    margin-right: -168px;
-  }
-  section aside h2{
-    margin: 0 auto;
-  }
-  aside > .headerContact{
-    margin-left: -60px;
-    width: 200%;
-    height: 100%;
-    display: inline-block;
-  }
-  aside > .headerContact a > img{
-    width: 30px;
-  }
-  .dm-3-tickets{
-    width: 100%;
-  }
-  .teasers img{
-    width: 100%;
-    height: 100%;
-  }
-  footer p{
-    margin-left: 5px;
-  }
-  footer .footerContact{
-    width: 217px;
-    display: block;
-  }
+@media all and (max-width: 740px) {
+    .wrapper {
+        width: 100%;
+    }
+    main {
+        width: 97%;
+        text-align: center;
+    }
+    body nav {
+        padding: 0;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: -15px;
+    }
+    body nav ul li {
+        margin: 0;
+    }
+    body nav ul li a {
+        display: inline-block;
+    }
+    .logo {
+        display: none;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    section aside {
+        margin: 0 auto;
+    }
+    section article {
+        width: 100%;
+    }
+    .logForm {
+        margin: 0 auto;
+    }
+    section aside .video {
+        margin-left: -163px;
+        margin-right: -168px;
+    }
+    section aside h2 {
+        margin: 0 auto;
+    }
+    aside > .headerContact {
+        margin-left: -60px;
+        width: 200%;
+        height: 100%;
+        display: inline-block;
+    }
+    aside > .headerContact a > img {
+        width: 30px;
+    }
+    .dm-3-tickets {
+        width: 100%;
+    }
+    .teasers img {
+        width: 100%;
+        height: 100%;
+    }
+    footer p {
+        margin-left: 5px;
+    }
+    footer .footerContact {
+        width: 217px;
+        display: block;
+    }
 }
+
 @media all and (max-width: 528px) {
-  header{
-    width: 110%;
-  }
+    header {
+        width: 110%;
+    }
 }
 
-@media all and (max-width: 480px){
-  header{
-    width: 496%;
-    text-align: center;
-    margin: 0 auto;
-  }
-  span{
-    text-align: center;
-    margin: 0 auto;
-  }
-  body nav{
-    margin: 0 auto;
-  }
-  body nav ul{
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  body nav ul li{
-    display: block;
-    text-align: center;
-    border-radius: 20px;
-  }
-  body nav ul li ul.sub-nav-list1, body nav ul li ul.sub-nav-list2{
-    z-index: 25;
-  }
+@media all and (max-width: 480px) {
+    header {
+        width: 496%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    span {
+        text-align: center;
+        margin: 0 auto;
+    }
+    body nav {
+        margin: 0 auto;
+    }
+    body nav ul {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    body nav ul li {
+        display: block;
+        text-align: center;
+        border-radius: 20px;
+    }
+    body nav ul li ul.sub-nav-list1,
+    body nav ul li ul.sub-nav-list2 {
+        z-index: 25;
+    }
 }
+
+=======@media all and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    body {
+        width: 98%;
+    }
+    body nav {
+        position: absolute;
+        float: none;
+        margin: 0 40px 0 0px;
+        width: 100%;
+    }
+    body nav ul {
+        margin-left: 0px;
+        width: 98%;
+        padding-left: 0px;
+    }
+    .logo a img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    section article #article-img img {
+        margin-right: 0px;
+        width: 430px;
+        height: 100%;
+    }
+    section article {
+        float: none;
+        width: 55%;
+    }
+    section aside {
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+    .logForm p {
+        letter-spacing: 0px;
+        margin-left: -115px;
+    }
+    .userInput {
+        margin-left: -90px;
+    }
+    .user-info {
+        margin-left: -100px;
+    }
+    aside > .headerContact {
+        margin-left: -56px;
+    }
+    header {
+        height: 90px;
+    }
+    section aside h2 {
+        text-transform: none;
+        letter-spacing: 0px;
+        margin-left: -130px;
+    }
+    section aside .video {
+        margin-left: -60px;
+    }
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+    .teasers {
+        margin-left: -64px;
+        padding: 0;
+        margin-top: -40px;
+    }
+    .teasers img {
+        width: 250px;
+        height: 250px;
+    }
+    footer {
+        width: 100%;
+        background-image: url('images/smileyPic.png');
+        margin-top: 20px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 200px;
+    }
+    body .wrapper > .top {
+        width: 98%;
+        bottom: -185px;
+    }
+    .footer-wrapper {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 920px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media all and (max-width: 740px) {
+    .wrapper {
+        width: 100%;
+    }
+    main {
+        width: 97%;
+        text-align: center;
+    }
+    body nav {
+        padding: 0;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: -15px;
+    }
+    body nav ul li {
+        margin: 0;
+    }
+    body nav ul li a {
+        display: inline-block;
+    }
+    .logo {
+        display: none;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    section aside {
+        margin: 0 auto;
+    }
+    section article {
+        width: 100%;
+    }
+    .logForm {
+        margin: 0 auto;
+    }
+    section aside .video {
+        margin-left: -163px;
+        margin-right: -168px;
+    }
+    section aside h2 {
+        margin: 0 auto;
+    }
+    aside > .headerContact {
+        margin-left: -60px;
+        width: 200%;
+        height: 100%;
+        display: inline-block;
+    }
+    aside > .headerContact a > img {
+        width: 30px;
+    }
+    .dm-3-tickets {
+        width: 100%;
+    }
+    .teasers img {
+        width: 100%;
+        height: 100%;
+    }
+    footer p {
+        margin-left: 5px;
+    }
+    footer .footerContact {
+        width: 217px;
+        display: block;
+    }
+}
+
+@media all and (max-width: 528px) {
+    header {
+        width: 110%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    header {
+        width: 496%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    span {
+        text-align: center;
+        margin: 0 auto;
+    }
+    body nav {
+        margin: 0 auto;
+    }
+    body nav ul {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    body nav ul li {
+        display: block;
+        text-align: center;
+        border-radius: 20px;
+    }
+    body nav ul li ul.sub-nav-list1,
+    body nav ul li ul.sub-nav-list2 {
+        z-index: 25;
+    }
+}
+
 >>>>>>> .theirs
