@@ -1,202 +1,195 @@
-@media all and (max-width: 1024px){
-  .wrapper{
-    width: 100%;
-  }
-  main{
-    width: 100%;
-    margin: 0 auto;
-  }
-  body{
-    width: 98%;
-  }
-  body nav{
-    position: absolute;
-    float: none;
-    margin: 0 40px 0 0px;
-    width: 100%;
-  }
-  body nav ul{
-    margin-left: 0px;
-    width: 98%;
-    padding-left: 0px;
-  }
-  .logo a img{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-  }
-  section article #article-img img{
-    margin-right: 0px;
-    width: 430px;
-    height: 100%;
-  }
-  section article{
-    float: none;
-    width: 55%;
-  }
-  section aside{
-    margin-left: 10px;
-    padding-left: 0px;
-  }
-  .logForm p{
-    letter-spacing: 0px;
-    margin-left: -115px;
-  }
-  .userInput{
-    margin-left: -90px;
-  }
-  .user-info{
-    margin-left: -100px;
-  }
-  aside > .headerContact{
-    margin-left: -56px;
-  }
-  header{
-    height: 90px;
-  }
-  section aside h2{
-    text-transform: none;
-    letter-spacing: 0px;
-    margin-left: -130px;
-  }
-  section aside .video{
-    margin-left: -60px;
-  }
-  iframe{
-    width: 300px;
-    height: 300px;
-  }
-  .teasers{
-    margin-left: -64px;
-    padding: 0;
-    margin-top: -40px;
-  }
-  .teasers img{
-    width: 250px;
-    height: 250px;
-  }
-  footer{
-    width: 100%;
-    background-image: url('images/smileyPic.png');
-    margin-top: 20px;
-  }
-  input[type="text"], input[type="password"]{
-    width: 200px;
-  }
-  body .wrapper > .top{
-    width: 98%;
-    bottom: -185px;
-  }
-  .footer-wrapper{
-    padding: 0;
-  }
-}
-@media all and (max-width: 920px) {
-  .logo{
-    display: none;
-  }
+@media all and (max-width: 1300px) {
+    section aside .video iframe {
+        width: 100%;
+        height: 200px;
+    }
+    body nav ul li ul.sub-nav-list1 li a,
+    body nav ul li ul.sub-nav-list2 li a {
+        font-size: 0.7em;
+    }
 }
 
-@media all and (max-width: 740px){
-  .wrapper{
-    width: 100%;
-  }
-  main{
-    width: 97%;
-    text-align: center;
-  }
-  body nav{
-    padding: 0;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    margin-right: 0px;
-    margin-left: -15px;
-  }
-  body nav ul li{
-    margin: 0;
-  }
-  body nav ul li a{
-    display: inline-block;
-  }
-  .logo{
-    display: none;
-  }
-  section{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  section aside{
-    margin: 0 auto;
-  }
-  section article{
-    width: 100%;
-  }
-  .logForm{
-    margin: 0 auto;
-  }
-  section aside .video{
-    margin-left: -163px;
-    margin-right: -168px;
-  }
-  section aside h2{
-    margin: 0 auto;
-  }
-  aside > .headerContact{
-    margin-left: -60px;
-    width: 200%;
-    height: 100%;
-    display: inline-block;
-  }
-  aside > .headerContact a > img{
-    width: 30px;
-  }
-  .dm-3-tickets{
-    width: 100%;
-  }
-  .teasers img{
-    width: 100%;
-    height: 100%;
-  }
-  footer p{
-    margin-left: 5px;
-  }
-  footer .footerContact{
-    width: 217px;
-    display: block;
-  }
-}
-@media all and (max-width: 528px) {
-  header{
-    width: 110%;
-  }
+@media all and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+    section aside .video iframe {
+        width: 100%;
+        height: auto;
+    }
 }
 
-@media all and (max-width: 480px){
-  header{
-    width: 496%;
-    text-align: center;
-    margin: 0 auto;
-  }
-  span{
-    text-align: center;
-    margin: 0 auto;
-  }
-  body nav{
-    margin: 0 auto;
-  }
-  body nav ul{
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  body nav ul li{
-    display: block;
-    text-align: center;
-    border-radius: 20px;
-  }
-  body nav ul li ul.sub-nav-list1, body nav ul li ul.sub-nav-list2{
-    z-index: 25;
-  }
+@media all and (max-width: 960px) {
+    body {
+        font-size: 14px;
+    }
+    body header div.logo img {
+        height: 90%;
+    }
+    body header div.logo {
+        height: 100%;
+        width: 20%;
+    }
+    body nav {
+        width: 70%;
+    }
+    body nav ul li {
+        height: 35px;
+        margin-left: 5px;
+        width: 23%;
+    }
+    body nav ul li ul.sub-nav-list1 li a,
+    body nav ul li ul.sub-nav-list2 li a {
+        font-size: 0.6em;
+    }
+    body nav ul li:hover ul.sub-nav-list1,
+    body nav ul li:hover ul.sub-nav-list2 {
+        position: absolute;
+        top: 26px;
+        left: -6px;
+    }
+    .footer-wrapper {
+        padding: 10px;
+    }
 }
+
+@media all and (max-width: 740px) {
+    body nav {
+        display: none;
+    }
+    header {
+        height: 5%;
+    }
+    body header div.logo {
+        width: 100%;
+        text-align: center;
+    }
+    /*TODO*/
+    /*to be finished the mobile nav*/
+    .mobile-nav {
+        display: block;
+        height: 100%;
+    }
+    .mobile-nav a {
+        display: block;
+        height: 100%;
+    }
+    .mobile-nav img {
+        height: 100%;
+        width: 15%;
+    }
+    /*to be finished the mobile nav*/
+    /*TODO-END*/
+    main {
+        padding-bottom: 30px;
+        top: 50px;
+    }
+    section {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0;
+        padding: 0;
+    }
+    section article {
+        width: 100%;
+        float: none;
+        padding: 10px;
+        box-sizing: border-box;
+        order: 1;
+    }
+    section aside {
+        float: none;
+        order: 2;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 5px;
+    }
+    section aside .logForm {
+        width: 30%;
+        margin-right: 10px;
+        padding: 0;
+    }
+    section aside .video {
+        width: 60%;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    section aside .video iframe {
+        height: 250px;
+    }
+    section aside h2 {
+        padding: 0;
+    }
+    /*TODO*/
+    /*to be finished the footer background*/
+    .bg-footer::after {
+        content: "";
+        background-image: url('images/indexPictures/smiley.gif');
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+        /*ако го махнем, фона идва върху линковете*/
+    }
+    .footer-wrapper {
+        padding: 40px;
+        background: transparent;
+        /*z-index: 5;*/
+    }
+    footer,
+    body .wrapper > .top {
+        bottom: -48px;
+    }
+    footer::after {
+        /*background-color: rgba(255, 242, 204, 0.5);*/
+        background-color: #000;
+    }
+    footer ul {
+        width: 30%;
+    }
+    /*to be finished the footer background*/
+    /*TODO - END*/
+}
+
+@media all and (max-width: 480px) {
+    section aside .logForm {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    section aside .video {
+        width: 100%;
+        margin: 0;
+    }
+    section aside .video iframe {
+        height: 250px;
+    }
+    section aside .teasers {
+        margin: 0;
+    }
+    .footer-wrapper {
+        padding: 0;
+    }
+    footer p {
+        font-size: 0.7em;
+        padding-top: 5px;
+    }
+    footer ul {
+        width: 35%;
+    }
+    footer .footerContact {
+        width: 150px;
+        margin-left: 20px;
+    }
+    footer .footerContact a > img {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+/*360px да се провери, дали не чупи нещо*/

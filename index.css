@@ -23,6 +23,7 @@ input {
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 
@@ -30,7 +31,7 @@ body {
 
 header {
     width: 100%;
-    height: 200px;
+    height: 20%;
     position: fixed;
     top: 0;
     z-index: 20;
@@ -39,14 +40,23 @@ header {
 
 body header div.logo {
     float: left;
-    width: 20%;
+    height: 100%;
+    width: 25%;
     position: absolute;
     /*z-index: 10000;*/
     margin-right: 20px;
 }
 
+body header div.logo img {
+    height: 100%;
+    /*width: 100%;*/
+}
+
 
 /*NAV*/
+.mobile-nav{
+    display: none;
+}
 
 body nav {
     width: 75%;
@@ -54,7 +64,6 @@ body nav {
     margin: 0 40px 0 70px;
     display: -webkit-flex;
     display: flex;
-
 }
 
 body nav ul {
@@ -88,6 +97,7 @@ body nav ul li a {
     line-height: 40px;
     display: block;
     font-weight: bold;
+    font-size: 0.9em;
 }
 
 body nav ul li:hover {
@@ -101,7 +111,6 @@ body nav ul li:hover > a {
 body nav ul li ul.sub-nav-list1,
 body nav ul li ul.sub-nav-list2 {
     display: none;
-    font-size: 12px;
 }
 
 body nav ul li:hover ul.sub-nav-list1 {
@@ -111,10 +120,7 @@ body nav ul li:hover ul.sub-nav-list1 {
     display: block;
 }
 
-body nav ul li:hover ul.sub-nav-list1 li {
-    width: 100%;
-}
-
+body nav ul li:hover ul.sub-nav-list1 li,
 body nav ul li:hover ul.sub-nav-list2 li {
     width: 100%;
 }
@@ -132,16 +138,17 @@ header:after {
     display: block;
 }
 
-aside > .headerContact {
+aside .headerContact {
     height: 33px;
     /*padding-left: 50px;*/
+    margin-top: 20px;
 }
 
 aside > .headerContact a > img {
     margin-top: 8px;
-    padding: 5px;
-    width: 40px;
-    height: 40px;
+    padding: 10px;
+    /*width: 40px;
+    height: 40px;*/
     cursor: pointer;
 }
 
@@ -152,12 +159,12 @@ div .search > input[type=text] {
     width: 200px;
     box-sizing: border-box;
     border: none;
-    font-size: 18px;
+    font-size: 1.2em;
     background-color: #fff2cc;
     background-image: url('searchicon.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 14px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     outline: none;
@@ -178,7 +185,7 @@ div .search > input [type=text]:hover {
 }
 
 div .search > i {
-    font-size: 19px;
+    font-size: 1.2em;
     position: absolute;
     top: 15px;
     left: 15px;
@@ -194,19 +201,24 @@ div .search > i {
     margin-right: 20px;
 }
 
+.logForm form {
+    width: 100%;
+}
+
 .logForm p {
     /*text-align: center;*/
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 0.8em;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px #888;
     /*margin-left: 50px;*/
 }
 
 .form-field {
     padding-top: 5px;
     position: relative;
-    /*width: 100%;*/
+    width: 100%;
 }
 
 .form-field input {
@@ -217,9 +229,7 @@ div .search > i {
     padding-left: 20px;
     color: #e36101;
     padding-top: 5px;
-    /*width: 337px;*/
-    width: 80%;
-    /*margin-left: 20px;*/
+    width: 95%;
 }
 
 .form-field input::placeholder {
@@ -249,7 +259,7 @@ div .search > i {
     /*width: 155px;*/
     width: 80%;
     height: 30px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     /*margin-left: 41px;*/
     letter-spacing: 8px;
@@ -288,14 +298,14 @@ body .wrapper > .top {
 }
 
 body .wrapper > .top p a {
-    font-size: 16px;
+    /*font-size: 16px;*/
     text-decoration: none;
     color: #e36101;
     padding: 5px;
 }
 
 body .wrapper > .top p a:hover {
-    font-size: 16px;
+    /*font-size: 16px;*/
     color: #1a0c00;
 }
 
@@ -329,12 +339,14 @@ section aside .video iframe {
 
 section aside h2 {
     color: #1a0c00;
-    font-size: 18px;
-    margin: 10px;
+    font-size: 1.2em;
+    margin: 10px 20px 10px 0;
     /*margin-left: 20px;*/
     padding-top: 45px;
     /*padding-left: 30px;*/
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     -webkit-animation-name: aside-titles;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 3s;
@@ -345,11 +357,6 @@ section aside h2 {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
-
-section aside h2 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 
@@ -402,6 +409,7 @@ section article {
 section article h2 {
     padding-bottom: 30px;
     color: #1a0c00;
+    font-size: 1.4em;
 }
 
 section article img {
@@ -412,7 +420,7 @@ section article img {
 }
 
 section article p {
-    font-size: 20px;
+    font-size: 1em;
     color: #1a0c00;
     word-wrap: break-word;
     text-indent: 20px;
@@ -422,7 +430,7 @@ section article p {
 section article p span {
     color: black;
     font-style: italic;
-    font-size: 14px;
+    font-size: 0.8em;
     float: right;
     margin: 2px;
 }
@@ -469,6 +477,7 @@ main:after {
 
 
 /*FOOTER*/
+
 footer {
     position: relative;
     bottom: -167px;
@@ -496,7 +505,7 @@ footer ul li {
     display: block;
     list-style-type: none;
     letter-spacing: 1px;
-    line-height: 1.6rem;
+    line-height: 1.6em;
     margin-right: 20px;
     text-align: left;
 }
@@ -504,7 +513,7 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: #e36101;
-    font-size: 18px;
+    /*font-size: 18px;*/
     text-transform: capitalize;
     letter-spacing: 1px;
     font-weight: bold;
@@ -517,7 +526,8 @@ footer ul li a:hover {
 footer p {
     color: #e36101;
     margin-left: 15px;
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: 0.8em;
 }
 
 footer p img {
