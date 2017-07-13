@@ -1,0 +1,109 @@
+/*SECTION*/
+
+section.sectionForUs {
+    margin: 15px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+/*ARTICLE*/
+
+section.sectionForUs article {
+    width: 60%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+section.sectionForUs article .block {
+    padding: 0;
+    text-align: left;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+section.sectionForUs article .block h2 {
+    margin: 15px;
+    /*margin-right: 10px;*/
+    padding-bottom: 25px;
+    /*padding-left: 10px;*/
+    color: #1a0c00;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+section.sectionForUs article .block h3 {
+    margin: 25px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    color: #1a0c00;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+section.sectionForUs article .block p {
+    font-size: 18px;
+	margin-top: 15px;
+    color: #1a0c00;
+    word-wrap: break-word;
+    text-indent: 20px;
+    line-height: 1.1;
+    font-style: italic;
+}
+
+section.sectionForUs article .block i {
+    color: #ff8000;
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+section.sectionForUs article .block i:hover {
+    color: #ff6600;
+    font-size: 17px;
+}
+
+section.sectionForUs article .block img {
+    box-shadow: 2px 2px 7px #999;
+    width: 10%;
+	width: 50px;
+	height: 50px;
+}
+
+section.sectionForUs article #teamLogo {
+    box-shadow: none;
+	width: 60px;
+	height: 30px;
+}
+
+
+/* ASIDE*/
+
+section.sectionForUs aside {
+    width: 40%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section.sectionForUs aside .blockImg {
+    padding: 15px;
+    margin: 5px;
+}
+
+section.sectionForUs aside .blockImg h2 {
+    margin-bottom: 10px;
+    text-align: left;
+    color: #1a0c00;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+section.sectionForUs aside .blockImg img {
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 7px #999;
+    width: 100%;
+}
