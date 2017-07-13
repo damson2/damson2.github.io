@@ -1,6 +1,7 @@
 /*SECTION*/
 
 section.sectionForUs {
+    
     padding: 10px;
     width: 100%;
 }
@@ -13,15 +14,18 @@ section.sectionForUs article {
     float: right;
     padding: 10px;
     box-sizing: border-box;
+   
     margin-top: 0;
 }
 
 section.sectionForUs article .block {
+    
     padding: 10px;
     text-align: left;
 }
 
 section.sectionForUs article .block h2 {
+    
     margin: 0;
     padding-bottom: 20px;
     color: #1a0c00;
@@ -30,6 +34,7 @@ section.sectionForUs article .block h2 {
     letter-spacing: 1px;
     text-align: center;
 }
+
 
 section.sectionForUs article .block h2 img {
     height: auto;
@@ -56,6 +61,7 @@ section.sectionForUs article .block .avatar .contact{
     float: left;
 }
 
+
 section.sectionForUs article .block .avatar p {
     font-size: 18px;
     color: #1a0c00;
@@ -67,19 +73,24 @@ section.sectionForUs article .block .avatar p {
     float: right;
 }
 
+
 section.sectionForUs article .block .avatar i {
     color: #ff8000;
+    
     font-size: 20px;
     
 }
+
 
 section.sectionForUs article .block .avatar i:hover {
     color: #ff6600;
     font-size: 17px;
 }
 
+
 section.sectionForUs article .block .avatar .contact > img {
     box-shadow: 2px 2px 7px #999;
+  
     
     height: auto;;
     margin-right: 20px;
@@ -103,16 +114,19 @@ section.sectionForUs article #teamLogo {
 section.sectionForUs aside {
     width: 40%;
     float: left;
+   
     /*padding: 10px;*/
     box-sizing: border-box;
 }
 
 section.sectionForUs aside .blockImg {
+   
     /*padding: 10px;
     margin: 5px;*/
 }
 
 section.sectionForUs aside .blockImg h2 {
+    
     /*margin-bottom: 10px;*/
     text-align: left;
     color: #1a0c00;
