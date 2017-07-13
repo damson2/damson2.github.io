@@ -54,7 +54,8 @@ body header div.logo img {
 
 
 /*NAV*/
-.mobile-nav{
+
+.mobile-nav {
     display: none;
 }
 
@@ -280,6 +281,7 @@ main {
     background-color: #fff2cc;
     /*margin-top: 10px;*/
     /*overflow: auto;*/
+    padding-bottom: 30px;
     position: relative;
     top: 200px;
     width: 100%;
@@ -313,7 +315,6 @@ body .wrapper > .top p a:hover {
 /*BACK TO TOP ARROW - END*/
 
 section {
-    margin: 15px;
     padding: 5px;
     width: 100%;
 }

@@ -15,12 +15,13 @@
 /*PAPER CRAFTS*/
 
 .paper-crafts div {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 
 .paper-crafts div img {
-    width: 100%;
+    width: 90%;
+    margin-left: 35px;
 }
 
 .paper-crafts button {
@@ -34,7 +35,6 @@
 }
 
 .paper-crafts button a {
-    padding: 20px 125px;
     color: #e36101;
     text-decoration: none;
     font-size: 16px;
