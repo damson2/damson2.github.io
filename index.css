@@ -24,7 +24,11 @@ input {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-	box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
 }
 
 
@@ -118,7 +122,8 @@ body nav ul li ul.sub-nav-list2 {
     display: none;
 }
 
-body nav ul li:hover ul.sub-nav-list1 {
+body nav ul li:hover ul.sub-nav-list1,
+body nav ul li:hover ul.sub-nav-list2 {
     position: absolute;
     top: 31px;
     left: -30px;
@@ -128,13 +133,6 @@ body nav ul li:hover ul.sub-nav-list1 {
 body nav ul li:hover ul.sub-nav-list1 li,
 body nav ul li:hover ul.sub-nav-list2 li {
     width: 100%;
-}
-
-body nav ul li:hover ul.sub-nav-list2 {
-    position: absolute;
-    top: 31px;
-    left: -30px;
-    display: block;
 }
 
 header:after {
@@ -296,7 +294,6 @@ main {
 
 body .wrapper > .top {
     background-color: #fff2cc;
-    width: 98%;
     margin: 0 auto;
     position: relative;
     bottom: -167px;
@@ -320,7 +317,9 @@ body .wrapper > .top p a:hover {
 
 section {
     padding: 5px;
-    width: 97%;
+    width: 100%;
+
+    box-sizing: border-box;
 }
 
 section aside {
@@ -331,9 +330,9 @@ section aside {
     box-sizing: border-box;
 }
 
-section aside .video {
+/*section aside .video {
     margin-right: 20px;
-}
+}*/
 
 section aside .video iframe {
     width: 100%;
@@ -454,8 +453,10 @@ section article p span a:hover {
     /*margin-left: 17px;*/
     color: #e36101;
     /*font-size: 12px;*/
-    padding: 2px;
-    margin-right: 20px;
+    padding: 10px;
+    /*margin-right: 20px;*/
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .teasers img {
@@ -489,6 +490,7 @@ footer {
     width: 100%;
     background-color: #fff2cc;
     border-top: 1px solid orange;
+    padding-bottom: 20px;
 }
 
 .footer-wrapper {
@@ -549,4 +551,19 @@ footer .footerContact a > img {
     margin: 5px;
     margin-right: 3px;
     padding: 6px;
+}
+
+footer .validated p {
+    float: right;
+}
+
+footer .validated img {
+    margin-left: 5px;
+    width: 30%;
+}
+
+footer .validated:after {
+    content: "";
+    clear: both;
+    display: block;
 }
