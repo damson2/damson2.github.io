@@ -15,7 +15,6 @@
 /*PLAY*/
 
 .game {
-    /*width: 100%;*/
     padding: 10px;
     position: relative;
 }
@@ -24,25 +23,6 @@
     width: 100%;
     float: none;
 }
-
-/*.game button {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    background-color: transparent;
-    width: 20%;
-    height: 5%;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 2px solid #e36101;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.game button a {
-    color: #e36101;
-    text-decoration: none;
-}*/
 
 .hidden-minion1 {
     position: absolute;

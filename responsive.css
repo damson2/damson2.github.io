@@ -186,7 +186,6 @@
     .footer-wrapper {
         padding: 40px;
         background: transparent;
-        /*z-index: 5;*/
     }
     footer,
     body .wrapper > .top {
@@ -195,7 +194,6 @@
     footer ul {
         width: 30%;
     }
-
     /*ABOUT US*/
     section.sectionForUs article.aboutUs {
         width: 100%;

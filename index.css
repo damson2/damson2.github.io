@@ -40,8 +40,6 @@ header {
     position: fixed;
     top: 0;
     z-index: 20;
-    /*background-color: rgba(255, 255, 255, 0.8);*/
-    /*background-color: rgba(213, 225, 248, 0.8);*/
     background: linear-gradient(rgba(213, 225, 248, 0.8), rgba(255, 255, 255, 0.8));
 }
 
@@ -318,7 +316,6 @@ body .wrapper > .top p a:hover {
 section {
     padding: 5px;
     width: 100%;
-
     box-sizing: border-box;
 }
 
@@ -329,6 +326,7 @@ section aside {
     padding: 15px;
     box-sizing: border-box;
 }
+
 
 /*section aside .video {
     margin-right: 20px;

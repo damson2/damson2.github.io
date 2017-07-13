@@ -19,8 +19,6 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    /*margin: 0 auto;*/
-    /* max-width: 1000px;*/
 }
 
 #image-container input[type="radio"] {
@@ -80,7 +78,6 @@
     border: 1px solid #e36101;
     width: 70%;
     height: 50px;
-
 }
 
 #wallpapers figure button a {
