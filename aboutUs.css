@@ -14,30 +14,32 @@ section.sectionForUs article {
     float: right;
     padding: 10px;
     box-sizing: border-box;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 
 section.sectionForUs article .block {
-    padding: 15px;
+    padding: 0;
     text-align: left;
+	margin-top: 5px;
+	margin-left: 15px;
 }
 
 section.sectionForUs article .block h2 {
     margin: 15px;
     /*margin-right: 10px;*/
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     /*padding-left: 10px;*/
     color: #1a0c00;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 section.sectionForUs article .block h3 {
-    margin: 15px;
-    margin-right: 10px;
+    margin: 25px;
+    padding-top: 35px;
     padding-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 2px;
     color: #1a0c00;
     font-size: 22px;
     letter-spacing: 1px;
@@ -46,6 +48,7 @@ section.sectionForUs article .block h3 {
 section.sectionForUs article .block p {
     font-size: 18px;
     color: #1a0c00;
+    margin-top: 15px;
     word-wrap: break-word;
     text-indent: 20px;
     line-height: 1.1;
