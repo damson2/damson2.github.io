@@ -35,7 +35,9 @@ header {
     position: fixed;
     top: 0;
     z-index: 20;
-    background-color: rgba(255, 255, 255, 0.8);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*background-color: rgba(213, 225, 248, 0.8);*/
+    background: linear-gradient(rgba(213, 225, 248, 0.8), rgba(255, 255, 255, 0.8));
 }
 
 body header div.logo {
@@ -80,19 +82,20 @@ body nav ul li {
     display: inline-block;
     margin-left: 30px;
     border: 1px solid #1a0d00;
-    border-radius: 2px 6px 2px 6px;
-    /*width: 200px;*/
+    border-radius: 5px;
     width: 20%;
     height: 40px;
     text-align: center;
     letter-spacing: 1px;
-    background-color: #663300;
+    /*background-color: rgba(43, 81, 157, 0.95);*/
+    /*background-color: rgba(213, 225, 248, 1);*/
+    background: linear-gradient(rgba(213, 225, 248, 0.8), rgba(255, 255, 255, 0.8));
     position: relative;
 }
 
 body nav ul li a {
     color: #e36101;
-    text-shadow: 0 0 3px #000;
+    /*text-shadow: 0 0 1px #000;*/
     text-decoration: none;
     text-transform: uppercase;
     line-height: 40px;
@@ -102,7 +105,7 @@ body nav ul li a {
 }
 
 body nav ul li:hover {
-    background-color: #e36101;
+    background: #e36101;
 }
 
 body nav ul li:hover > a {
