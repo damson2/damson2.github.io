@@ -24,6 +24,7 @@ input {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+	box-sizing: border-box;
 }
 
 
@@ -295,7 +296,7 @@ main {
 
 body .wrapper > .top {
     background-color: #fff2cc;
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
     position: relative;
     bottom: -167px;
@@ -319,7 +320,7 @@ body .wrapper > .top p a:hover {
 
 section {
     padding: 5px;
-    width: 100%;
+    width: 97%;
 }
 
 section aside {
