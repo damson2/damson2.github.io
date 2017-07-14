@@ -551,8 +551,9 @@ footer .footer-wrapper {
 }
 
 .right .support {
+    margin: 5px;
+    padding-right: 2px;
     bottom: 0;
-    right: 0;
     text-align: right;
 }
 
