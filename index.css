@@ -537,7 +537,7 @@ footer .footer-wrapper .center p {
 
 .center > img {
     width: 100%;
-    border-radius: 18px;
+    border-radius: 8px;
 }
 
 .left > p img {
@@ -550,13 +550,13 @@ footer .footer-wrapper .center p {
 
 .right .validated {
     margin: 5px;
-    padding: 10px;
     text-align: right;
     padding-right: 2px;
 }
 
 .right .validated img {
     width: 20%;
+    margin-left: 1px;
 }
 
 .right .support {
@@ -567,6 +567,7 @@ footer .footer-wrapper .center p {
 
 .right .support img {
     width: 20%;
+    height: auto;
     margin-left: 1px;
 }
  .right .support a {
