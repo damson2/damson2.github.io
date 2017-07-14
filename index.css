@@ -561,7 +561,12 @@ footer .footer-wrapper .center .support p {
 .right .validated img {
     width: 20%;
 }
-
+.right .support img {
+     width: 20%;
+}
+ .right .support a {
+     cursor: pointer;
+}
 footer ul {
     box-sizing: border-box;
     padding: 20px;
