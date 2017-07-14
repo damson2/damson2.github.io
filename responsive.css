@@ -185,12 +185,7 @@
     body .wrapper > .top {
         bottom: -48px;
     }
-    footer .footer-wrapper .center .support p {
-        width: 40%;
-    }
-    footer .footer-wrapper .center .support a img {
-        margin-right: 60px;
-    }
+    
     footer .footerContact a > img {
         display: block;
         margin-top: 5px;
@@ -234,10 +229,7 @@
     header {
         height: 7%;
     }
-    footer .footer-wrapper .center .support {
-        text-align: center;
-    }
-    footer .footer-wrapper .center .support p {
+    footer .footer-wrapper .center {
         width: 100%;
     }
     footer ul {
