@@ -526,15 +526,6 @@ footer .footer-wrapper {
     width: 35%;
 }
 
-footer .footer-wrapper .center a img {
-    float: right;
-}
-
-footer .footer-wrapper .center p {
-    width: 20%;
-    float: left;
-}
-
 .center > img {
     width: 100%;
     border-radius: 8px;
