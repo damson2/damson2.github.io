@@ -48,9 +48,6 @@
         top: 26px;
         left: -6px;
     }
-    .footer-wrapper {
-        padding: 5px;
-    }
     header {
         height: 17%;
     }
@@ -183,16 +180,20 @@
     section aside h2 {
         padding: 0;
     }
-    .footer-wrapper {
-        padding: 40px;
-        background: transparent;
-    }
+    .footer-wrapper {}
     footer,
     body .wrapper > .top {
         bottom: -48px;
     }
-    footer ul {
-        width: 30%;
+    footer .footer-wrapper .center .support p {
+        width: 40%;
+    }
+    footer .footer-wrapper .center .support a img {
+        margin-right: 60px;
+    }
+    footer .footerContact a > img {
+        display: block;
+        margin-top: 5px;
     }
     /*ABOUT US*/
     section.sectionForUs article.aboutUs {
@@ -223,24 +224,6 @@
     section aside .teasers {
         margin: 0;
     }
-    .footer-wrapper {
-        padding: 0;
-    }
-    footer p {
-        font-size: 0.7em;
-        padding-top: 5px;
-    }
-    footer ul {
-        width: 37%;
-    }
-    footer .footerContact {
-        width: 150px;
-        margin-left: 20px;
-    }
-    footer .footerContact a > img {
-        margin: 0;
-        padding: 0;
-    }
     .mobile-nav ul .sandwich-menu .submenu li a {
         font-size: 0.9em;
     }
@@ -250,6 +233,22 @@
     }
     header {
         height: 7%;
+    }
+    footer .footer-wrapper .center .support {
+        text-align: center;
+    }
+    footer .footer-wrapper .center .support p {
+        width: 100%;
+    }
+    footer ul {
+        box-sizing: border-box;
+        padding: 5%;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    footer ul li a {
+        font-size: 0.8em;
     }
 }
 
