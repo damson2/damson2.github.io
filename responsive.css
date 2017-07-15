@@ -11,7 +11,7 @@
         font-size: 0.7em;
     }
     header {
-        height: 14%;
+        height: 23%;
     }
 }
 
@@ -26,6 +26,9 @@
     /*GAMES PAGE*/
     .links div img {
         opacity: 1;
+    }
+    header {
+        height: 14%;
     }
 }
 
@@ -58,7 +61,7 @@
         display: none;
     }
     header {
-        height: 11%;
+        height: 5%;
     }
     body header div.logo {
         position: relative;
@@ -74,7 +77,7 @@
     .mobile-nav ul .sandwich-menu .submenu li:hover {
         background: #e36101;
     }
-    .mobile-nav ul .sandwich-menu .submenu li:hover > a {
+    .mobile-nav ul .sandwich-menu .submenu li:hover>a {
         color: #fff;
     }
     .sandwich-menu {
@@ -169,25 +172,27 @@
     section aside .video iframe {
         height: 350px;
     }
-    section aside .logForm ~ .video {
-        width: 65%;
+    section aside .logForm~.video {
+        width: 63%;
         margin-left: 10px;
         margin-right: 0;
     }
-    section aside .logForm ~ .video iframe {
+    section aside .logForm~.video iframe {
         height: 250px;
     }
     section aside h2 {
         padding: 0;
     }
-    .footer-wrapper {}
+
     footer,
-    body .wrapper > .top {
+    body .wrapper>.top {
         bottom: -48px;
     }
-    
-    footer .footerContact a > img {
-        display: block;
+    footer .footerContact {
+        margin-top: 20px;
+    }
+    footer .footerContact a>img {
+        /*display: block;*/
         margin-top: 5px;
     }
     /*ABOUT US*/
@@ -201,12 +206,15 @@
 }
 
 @media all and (max-width: 480px) {
+    header {
+        height: 7%;
+    }
     section aside .logForm {
         width: 100%;
         margin: 0;
         padding: 5px;
     }
-    section aside .logForm ~ .video {
+    section aside .logForm~.video {
         width: 100%;
         margin: 0;
     }
@@ -226,10 +234,10 @@
     .submenu li:hover ul.sub-nav-list2 li a {
         font-size: 0.7em;
     }
-    header {
-        height: 7%;
-    }
-    footer .footer-wrapper .center {
+
+    footer .footer-wrapper .center,
+    footer .footer-wrapper .right,
+    footer .footer-wrapper .left {
         width: 100%;
     }
     footer ul {
@@ -239,12 +247,6 @@
         margin-left: 0;
         margin-top: 20px;
     }
-    footer ul li a {
-        font-size: 0.8em;
-    }
-}
-
-@media all and (max-width: 480px) {
     /*GAMES PAGE*/
     .links div img {
         width: 40%;
